@@ -19,12 +19,38 @@ function generateHeatmap() {
 const heatmap = generateHeatmap();
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-const repos = [
-  { name: "smart-parking-iot", desc: "IoT-based smart parking system with Flutter & ESP32", stars: 47, forks: 12, lang: "Dart", langColor: "#54C5F8" },
-  { name: "flutter-learning-hub", desc: "Interactive Flutter education platform with quizzes and playgrounds", stars: 134, forks: 28, lang: "Dart", langColor: "#54C5F8" },
-  { name: "unity-game-collection", desc: "3D platformer, roguelike dungeon crawler, and shader sandbox", stars: 89, forks: 19, lang: "C#", langColor: "#9B59B6" },
-  { name: "ml-robotics-controller", desc: "ML-powered robotic arm with TensorFlow + Raspberry Pi", stars: 62, forks: 14, lang: "Python", langColor: "#3776AB" },
-];
+const repos = [  {
+    name: "portfolio-website",
+    desc: "Personal portfolio website built with React, TypeScript, and Tailwind CSS.",
+    stars: 0,
+    forks: 0,
+    lang: "TypeScript",
+    langColor: "#3178C6",
+  },
+  {
+    name: "smart-parking-system",
+    desc: "IoT-based smart parking monitoring system using ESP32, Firebase Realtime Database, and Laravel.",
+    stars: 0,
+    forks: 0,
+    lang: "PHP",
+    langColor: "#8892BF",
+  },
+  {
+    name: "flutter-training",
+    desc: "Collection of Flutter learning projects covering UI, state management, and REST API integration.",
+    stars: 0,
+    forks: 0,
+    lang: "Dart",
+    langColor: "#54C5F8",
+  },
+  {
+    name: "unity-game-project",
+    desc: "Personal Unity game development projects exploring gameplay mechanics and C# scripting.",
+    stars: 0,
+    forks: 0,
+    lang: "C#",
+    langColor: "#9B59B6",
+  },];
 
 function cellColor(v: number) {
   if (v === 0) return "rgba(26,34,56,0.8)";

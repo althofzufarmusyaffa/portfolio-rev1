@@ -13,12 +13,12 @@ const roles = [
 // Floating tech bubbles for the workspace illustration
 const techBubbles = [
   { label: "Flutter", color: "#54C5F8", bg: "#0C1B2E", x: "72%", y: "18%", size: 52 },
-  { label: "Unity", color: "#AAAAAA", bg: "#1A1A2E", x: "88%", y: "38%", size: 48 },
-  { label: "VS Code", color: "#007ACC", bg: "#0D1B2A", x: "62%", y: "62%", size: 48 },
+  { label: "Laravel", color: "#FF2D20", bg: "#2A0D0D", x: "88%", y: "38%", size: 48 },
+  { label: "Firebase", color: "#FFCA28", bg: "#2A250D", x: "62%", y: "62%", size: 48 },
   { label: "Git", color: "#F05032", bg: "#2A0D0D", x: "82%", y: "70%", size: 44 },
-  { label: "Arduino", color: "#00979C", bg: "#0A1E1F", x: "55%", y: "32%", size: 44 },
-  { label: "Py", color: "#3776AB", bg: "#0D1A2A", x: "78%", y: "52%", size: 42 },
-  { label: "π", color: "#C51A4A", bg: "#2A0A14", x: "65%", y: "80%", size: 40 },
+  { label: "ESP32", color: "#E7352C", bg: "#1E1010", x: "55%", y: "32%", size: 44 },
+  { label: "React", color: "#61DAFB", bg: "#0D1B2A", x: "78%", y: "52%", size: 42 },
+  { label: "Unity", color: "#AAAAAA", bg: "#1A1A2E", x: "65%", y: "80%", size: 40 },
 ];
 
 export function Hero() {
@@ -153,7 +153,7 @@ export function Hero() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              Tofu.
+              Althof.
             </span>
           </h1>
 

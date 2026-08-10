@@ -47,7 +47,7 @@ Avoid:
 Hero Section:
 Left side:
 Large title:
-> Hello, I'm Tofu.
+> Hello, I'm Althof.
 
 Animated typewriter text cycling:
 Computer Engineer

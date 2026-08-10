@@ -3,10 +3,10 @@ import { Send, Github, Linkedin, Mail, MessageSquare } from "lucide-react";
 import { SectionHeader } from "./About";
 
 const socials = [
-  { icon: <Mail size={18} />, label: "Email", handle: "tofu@example.dev", href: "mailto:tofu@example.dev", color: "#38BDF8" },
-  { icon: <Github size={18} />, label: "GitHub", handle: "github.com/tofu-dev", href: "#", color: "#fff" },
-  { icon: <Linkedin size={18} />, label: "LinkedIn", handle: "linkedin.com/in/tofu", href: "#", color: "#0A66C2" },
-  { icon: <MessageSquare size={18} />, label: "Discord", handle: "tofu#0001", href: "#", color: "#5865F2" },
+  { icon: <Mail size={18} />, label: "Email", handle: "althofzufar41@gmail.com", href: "mailto:althofzufar41@gmail.com", color: "#38BDF8" },
+  { icon: <Github size={18} />, label: "GitHub", handle: "github.com/althofzufarmusyaffa", href: "https://github.com/althofzufarmusyaffa", color: "#fff" },
+  { icon: <Linkedin size={18} />, label: "LinkedIn", handle: "linkedin.com/in/altop1/", href: "https://linkedin.com/in/altop1/", color: "#0A66C2" },
+  { icon: <MessageSquare size={18} />, label: "Discord", handle: "gluttony_999", href: "https://discord.com/users/gluttony_999", color: "#5865F2" },
 ];
 
 export function Contact() {

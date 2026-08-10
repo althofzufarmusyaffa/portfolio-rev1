@@ -1,25 +1,26 @@
 import { BookOpen, Target, MapPin, Calendar, Cpu } from "lucide-react";
+import profileLogo from "../../assets/profile-logo.gif";
 
 const education = [
   {
-    year: "2022 – Present",
-    degree: "B.Sc. Computer Engineering",
-    school: "University of Technology",
+    year: "2023 – Present",
+    degree: "Bachelor of Applied Computer Engineering",
+    school: "IPB University",
     status: "current",
   },
   {
-    year: "2019 – 2022",
+    year: "2020 – 2023",
     degree: "Science & Math High School",
-    school: "National STEM Academy",
+    school: "SMA Negeri 5 Bekasi",
     status: "done",
   },
 ];
 
 const learning = [
-  { item: "Advanced Flutter Architecture", progress: 72 },
-  { item: "Unity DOTS & Job System", progress: 55 },
-  { item: "TensorFlow & Edge AI", progress: 48 },
-  { item: "AWS Cloud Fundamentals", progress: 38 },
+  { item: "Flutter Advanced (State Management & Clean Architecture)", progress: 80 },
+  { item: "Laravel Backend Development", progress: 75 },
+  { item: "Unity Game Development", progress: 80 },
+  { item: "Computer Vision with OpenCV", progress: 70 },
 ];
 
 export function About() {
@@ -54,20 +55,29 @@ export function About() {
           {/* Avatar placeholder */}
           <div
             style={{
-              width: "110px",
-              height: "110px",
+              width: 120,
+              height: 120,
               borderRadius: "50%",
-              background: "linear-gradient(135deg, #2563EB, #38BDF8)",
-              margin: "0 auto 1.2rem",
+              overflow: "hidden",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: "3rem",
-              boxShadow: "0 0 30px rgba(37,99,235,0.4)",
+              margin: "0 auto 1.25rem",
+              border: "3px solid rgba(56,189,248,.3)",
+              boxShadow: "0 0 25px rgba(56,189,248,.25)",
             }}
           >
-            🧑‍💻
-          </div>
+          <img
+            src={profileLogo}
+            alt="Profile"
+            style={{
+              width: "130%",
+              height: "130%",
+              objectFit: "cover",
+              transform: "translate(-5px, -3px)",
+            }}
+          />
+        </div>
           <h3
             style={{
               fontFamily: "'Raleway', sans-serif",
@@ -77,7 +87,7 @@ export function About() {
               marginBottom: "0.25rem",
             }}
           >
-            Tofu
+            Althof Zufar Musyaffa
           </h3>
           <p
             style={{
@@ -92,8 +102,8 @@ export function About() {
 
           {/* Info rows */}
           {[
-            { icon: <MapPin size={13} />, text: "Somewhere, Earth 🌍" },
-            { icon: <BookOpen size={13} />, text: "CompEng Student" },
+            { icon: <MapPin size={13} />, text: "Bekasi, Indonesia" },
+            { icon: <BookOpen size={13} />, text: "Computer Engineering Student" },
             { icon: <Cpu size={13} />, text: "Flutter · Unity · AI · IoT" },
           ].map(({ icon, text }) => (
             <div
@@ -139,7 +149,7 @@ export function About() {
               }}
             />
             <span style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.75rem", color: "#22C55E" }}>
-              Available for work
+              Intern at PT Bank Syariah Nasional
             </span>
           </div>
         </div>
@@ -171,10 +181,7 @@ export function About() {
               </span>
             </div>
             <p style={{ fontFamily: "'Inter', sans-serif", fontSize: "0.93rem", color: "#94A3B8", lineHeight: 1.75 }}>
-              To engineer technology that genuinely improves lives — whether that's a
-              mobile app reaching thousands of users, an AI system that learns and adapts,
-              a game world that feels alive, or an IoT device that makes everyday things smarter.
-              I believe the best code is invisible: fast, elegant, and exactly what the user needed.
+              I believe technology should solve real problems and create meaningful experiences. As a Computer Engineering student, I am continuously learning and building applications using Flutter, Laravel, Firebase, Unity, and IoT technologies. My goal is to become a software engineer who develops innovative digital solutions that make a positive impact on society.
             </p>
           </div>
 

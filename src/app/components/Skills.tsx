@@ -3,87 +3,74 @@ import { SectionHeader } from "./About";
 
 const categories = [
   {
-    id: "languages",
-    label: "Languages",
-    emoji: "💬",
-    skills: [
-      { name: "Dart", level: 90, exp: "3y", color: "#54C5F8" },
-      { name: "C#", level: 82, exp: "2y", color: "#9B59B6" },
-      { name: "Python", level: 85, exp: "3y", color: "#3776AB" },
-      { name: "Java", level: 70, exp: "2y", color: "#F89820" },
-      { name: "PHP", level: 65, exp: "1.5y", color: "#8892BF" },
-      { name: "JavaScript", level: 78, exp: "2y", color: "#F7DF1E" },
-      { name: "SQL", level: 80, exp: "2y", color: "#FF7B00" },
-    ],
-  },
-  {
-    id: "frameworks",
-    label: "Frameworks",
-    emoji: "🧩",
-    skills: [
-      { name: "Flutter", level: 90, exp: "3y", color: "#54C5F8" },
-      { name: "Laravel", level: 68, exp: "1.5y", color: "#FF2D20" },
-      { name: "Unity", level: 80, exp: "2y", color: "#AAAAAA" },
-      { name: "Firebase", level: 82, exp: "2.5y", color: "#FFCA28" },
-    ],
-  },
-  {
-    id: "gamedev",
-    label: "Game Dev",
-    emoji: "🎮",
-    skills: [
-      { name: "Unity", level: 80, exp: "2y", color: "#AAAAAA" },
-      { name: "Godot", level: 60, exp: "1y", color: "#478CBF" },
-      { name: "Blender", level: 45, exp: "0.5y", color: "#F5792A" },
-      { name: "Shader Graph", level: 65, exp: "1y", color: "#9B59B6" },
-    ],
-  },
-  {
-    id: "ai",
-    label: "AI & ML",
-    emoji: "🤖",
-    skills: [
-      { name: "TensorFlow", level: 65, exp: "1.5y", color: "#FF6F00" },
-      { name: "OpenCV", level: 70, exp: "1.5y", color: "#5C3EE8" },
-      { name: "Computer Vision", level: 68, exp: "1.5y", color: "#38BDF8" },
-    ],
-  },
-  {
-    id: "iot",
-    label: "IoT & Embedded",
-    emoji: "📡",
-    skills: [
-      { name: "Arduino", level: 82, exp: "2.5y", color: "#00979C" },
-      { name: "ESP32", level: 75, exp: "2y", color: "#E7352C" },
-      { name: "MQTT", level: 68, exp: "1.5y", color: "#660066" },
-      { name: "Firebase RT DB", level: 78, exp: "2y", color: "#FFCA28" },
-    ],
-  },
-  {
-    id: "networking",
-    label: "Networking",
-    emoji: "🌐",
-    skills: [
-      { name: "Cisco", level: 65, exp: "1.5y", color: "#1BA0D7" },
-      { name: "MikroTik", level: 60, exp: "1y", color: "#CC0000" },
-      { name: "VLAN", level: 70, exp: "1.5y", color: "#38BDF8" },
-      { name: "Routing", level: 68, exp: "1.5y", color: "#2563EB" },
-    ],
-  },
-  {
-    id: "tools",
-    label: "Tools",
-    emoji: "🛠️",
-    skills: [
-      { name: "Git", level: 88, exp: "3y", color: "#F05032" },
-      { name: "GitHub", level: 90, exp: "3y", color: "#fff" },
-      { name: "VS Code", level: 95, exp: "3y", color: "#007ACC" },
-      { name: "Android Studio", level: 82, exp: "2.5y", color: "#3DDC84" },
-      { name: "Figma", level: 70, exp: "1.5y", color: "#A259FF" },
-      { name: "Docker", level: 60, exp: "1y", color: "#2496ED" },
-      { name: "Linux", level: 75, exp: "2y", color: "#FCC624" },
-    ],
-  },
+  id: "languages",
+  label: "Programming Languages",
+  emoji: "💻",
+  skills: [
+    { name: "Dart", level: 85, exp: "1.5y", color: "#54C5F8" },
+    { name: "PHP", level: 75, exp: "1.5y", color: "#8892BF" },
+    { name: "JavaScript", level: 70, exp: "1y", color: "#F7DF1E" },
+    { name: "Python", level: 65, exp: "1y", color: "#3776AB" },
+    { name: "C#", level: 65, exp: "1y", color: "#9B59B6" },
+    { name: "Java", level: 60, exp: "1y", color: "#F89820" },
+    { name: "SQL", level: 75, exp: "1.5y", color: "#FF7B00" },
+  ],
+},
+{
+  id: "frameworks",
+  label: "Frameworks",
+  emoji: "🧩",
+  skills: [
+    { name: "Flutter", level: 85, exp: "1.5y", color: "#54C5F8" },
+    { name: "Laravel", level: 75, exp: "1.5y", color: "#FF2D20" },
+    { name: "Firebase", level: 80, exp: "1.5y", color: "#FFCA28" },
+    { name: "React", level: 55, exp: "0.5y", color: "#61DAFB" },
+  ],
+},
+{
+  id: "gamedev",
+  label: "Game Development",
+  emoji: "🎮",
+  skills: [
+    { name: "Unity", level: 65, exp: "1y", color: "#AAAAAA" },
+    { name: "C#", level: 65, exp: "1y", color: "#9B59B6" },
+  ],
+},
+{
+  id: "iot",
+  label: "IoT & Embedded",
+  emoji: "📡",
+  skills: [
+    { name: "Arduino", level: 80, exp: "2y", color: "#00979C" },
+    { name: "ESP32", level: 75, exp: "2y", color: "#E7352C" },
+    { name: "Firebase Realtime Database", level: 80, exp: "1.5y", color: "#FFCA28" },
+    { name: "MQTT", level: 65, exp: "1y", color: "#660066" },
+  ],
+},
+{
+  id: "networking",
+  label: "Networking",
+  emoji: "🌐",
+  skills: [
+    { name: "Cisco Packet Tracer", level: 75, exp: "2y", color: "#1BA0D7" },
+    { name: "MikroTik", level: 65, exp: "1y", color: "#CC0000" },
+    { name: "Routing & Switching", level: 70, exp: "2y", color: "#2563EB" },
+  ],
+},
+{
+  id: "tools",
+  label: "Tools",
+  emoji: "🛠️",
+  skills: [
+    { name: "Git", level: 85, exp: "2y", color: "#F05032" },
+    { name: "GitHub", level: 85, exp: "2y", color: "#ffffff" },
+    { name: "VS Code", level: 95, exp: "3y", color: "#007ACC" },
+    { name: "Android Studio", level: 80, exp: "1.5y", color: "#3DDC84" },
+    { name: "Docker", level: 60, exp: "0.5y", color: "#2496ED" },
+    { name: "Figma", level: 65, exp: "1y", color: "#A259FF" },
+    { name: "Linux", level: 70, exp: "2y", color: "#FCC624" },
+  ],
+},
 ];
 
 export function Skills() {

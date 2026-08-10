@@ -2,32 +2,32 @@ import { Quote } from "lucide-react";
 import { SectionHeader } from "./About";
 
 const testimonials = [
-  {
-    name: "Sarah Chen",
-    role: "Senior Engineer @ TechCorp",
-    avatar: "👩‍💼",
-    text: "Tofu has an incredible ability to rapidly prototype ideas and turn them into polished, well-architected apps. The Flutter dashboard they built for us reduced our internal reporting time by 40% — impressive for a first internship.",
+    {
+    name: "Lorem Ipsum",
+    role: "Placeholder Testimonial",
+    avatar: "👤",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     color: "#54C5F8",
   },
   {
-    name: "Marcus Lin",
-    role: "Game Dev Mentor, Indie Studio",
-    avatar: "🧑‍🎨",
-    text: "The 3D physics work in Tofu's Unity projects is well beyond what most students demonstrate. Clean C# patterns, excellent shader use, and genuine passion for the craft. Definitely one to watch.",
+    name: "Dolor Sit",
+    role: "Placeholder Testimonial",
+    avatar: "👤",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     color: "#AAAAAA",
   },
   {
-    name: "Prof. Amira Hassan",
-    role: "Computer Engineering Faculty",
-    avatar: "👩‍🏫",
-    text: "Few students integrate hardware and software as naturally as Tofu. Their smart parking system project was the standout submission of the semester — technically sound, practically motivated, and beautifully documented.",
+    name: "Amet Consectetur",
+    role: "Placeholder Testimonial",
+    avatar: "👤",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     color: "#22C55E",
   },
   {
-    name: "Jordan Park",
-    role: "Freelance Client — Mobile App",
-    avatar: "🧑‍💻",
-    text: "Hired Tofu to build a food delivery app and was blown away by the result. Communication was clear, delivery was on time, and the Flutter UI was better than we imagined. Would absolutely work together again.",
+    name: "Placeholder User",
+    role: "Coming Soon",
+    avatar: "👤",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus.",
     color: "#A855F7",
   },
 ];

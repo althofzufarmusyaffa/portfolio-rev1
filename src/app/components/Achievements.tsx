@@ -1,12 +1,42 @@
 import { SectionHeader } from "./About";
 
 const stats = [
-  { value: "40+", label: "Projects Completed", icon: "🚀", color: "#38BDF8" },
-  { value: "63", label: "GitHub Repositories", icon: "🐙", color: "#6366F1" },
-  { value: "12", label: "Certificates Earned", icon: "📜", color: "#F59E0B" },
-  { value: "30+", label: "Technologies Learned", icon: "🧠", color: "#22C55E" },
-  { value: "4,200+", label: "Hours of Coding", icon: "⏱️", color: "#A855F7" },
-  { value: "3+", label: "Years Learning", icon: "📅", color: "#2563EB" },
+  {
+    value: "15+",
+    label: "Projects Built",
+    icon: "🚀",
+    color: "#38BDF8",
+  },
+  {
+    value: "8",
+    label: "GitHub Repositories",
+    icon: "🐙",
+    color: "#6366F1",
+  },
+  {
+    value: "1",
+    label: "Scholarship Award",
+    icon: "🏆",
+    color: "#F59E0B",
+  },
+  {
+    value: "15+",
+    label: "Technologies Explored",
+    icon: "🧠",
+    color: "#22C55E",
+  },
+  {
+    value: "1",
+    label: "Internship Experience",
+    icon: "💼",
+    color: "#A855F7",
+  },
+  {
+    value: "2023",
+    label: "Started Engineering Journey",
+    icon: "🎓",
+    color: "#2563EB",
+  },
 ];
 
 export function Achievements() {
